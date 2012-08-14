@@ -25,6 +25,7 @@ set ruler               " show the cursor position all the time
 set incsearch           " do incremental searching
 set expandtab
 set helpheight=1000
+set ignorecase
 
 set completeopt=longest,menu,preview
 set wildmode=longest,list:longest
@@ -46,6 +47,9 @@ set statusline+=%*
 set statusline+=%r%=[%{&encoding}\ %{&fileformat}\ %{strlen(&ft)?&ft:'none'}]
 set statusline+=%15.(%c:%l/%L%)\ %P
 set laststatus=2
+
+Keep swap files in one of these 
+set directory=~/tmp,/var/tmp,/tmp,.
 
 " " Syntastic
 let g:syntastic_enable_signs=1

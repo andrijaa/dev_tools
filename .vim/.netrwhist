@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/var/www/html/aki'
 let g:netrw_dirhist_2='/Users/iocom/git/dev_tools/.vim'
+let g:netrw_dirhist_3='/Users/iocom/code/visiphonegap/www/webclient/js'
+let g:netrw_dirhist_4='/Applications/visimeet.app/Contents/_CodeSignature'
+let g:netrw_dirhist_5='/Users/iocom/code/visimac'
+let g:netrw_dirhist_6='/Users/iocom/git/dev_tools/.vim'
