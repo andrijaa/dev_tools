@@ -48,7 +48,7 @@ set statusline+=%r%=[%{&encoding}\ %{&fileformat}\ %{strlen(&ft)?&ft:'none'}]
 set statusline+=%15.(%c:%l/%L%)\ %P
 set laststatus=2
 
-Keep swap files in one of these 
+"Keep swap files in one of these 
 set directory=~/tmp,/var/tmp,/tmp,.
 
 " " Syntastic
